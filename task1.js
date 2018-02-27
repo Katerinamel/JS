@@ -16,4 +16,4 @@ if (lines > 2)
 
     }
 }
-DrawTriangle(“$”, 10);
+DrawTriangle(simb, lines);
