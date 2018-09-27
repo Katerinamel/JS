@@ -1,0 +1,17 @@
+.list__text-style{
+    text-decoration:none;
+}
+.list__text-style:nth-child(3n){
+color: blue;
+font-size: 2em;
+}
+.list__text-style_lined{
+    text-decoration:line-through;
+}
+
+.list__text-style_lined:nth-child(3n){
+    color: blue;
+    font-size: 2em;
+    }
+
+

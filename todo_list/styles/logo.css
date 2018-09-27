@@ -1,0 +1,21 @@
+
+.logo__als-logo {
+
+  width: 270px;
+  height: 48px;
+  border-radius: 4px;
+  transition: 4s;
+background-color: rgb(149, 151, 16);
+}
+
+
+.logo__text{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;    
+    
+}
+
+.logo{
+  margin-bottom: 20px;
+}

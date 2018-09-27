@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HW6</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="styles/logo.css" rel="stylesheet" />
+    <link href="styles/todo.css" rel="stylesheet" />
+    <link href="styles/bootstrap.btn.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <div class="logo">
+        <div id="als-logo" class="logo__als-logo">
+            <div class="logo__text">Art.Lebedev</div>
+        </div>
+    </div>
+    <div class="todo-list">
+       
+        <input type="text" name="key" placeholder="Enter your goal" id="typeGoal"></input>
+    
+    <input type="button" class="btn btn-primary" value="Add goal" id="addGoal" />
+        <input type="button" class="btn btn-danger" value="Clear list" id="deleteGoals" />
+        <div>To do list:</div> 
+        <ol id="list">
+        </ol>
+        
+    </div>
+    <script src="js/logo.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+
+</html>
